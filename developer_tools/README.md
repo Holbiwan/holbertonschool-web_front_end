@@ -1,9 +1,13 @@
-### Developer Tools Guide
+## Developer Tools Guide 🛠 
 
 Developer Tools are built-in features in modern web browsers that allow developers to inspect and debug web pages, modify CSS and HTML in real-time, analyze page performance, and much more. This repository contains a comprehensive guide on how to utilize Developer Tools effectively in a browser.
 
-#### Topics covered in thos repo :
 
+![Home](https://zupimages.net/up/24/15/w9zd.png)
+
+##  Topics covered in this repo 🧐 :
+
+```sh
 1. What are Developer Tools in Your Browser?
 2. Blocking Requests
 3. Detecting 404 Issues
@@ -14,8 +18,11 @@ Developer Tools are built-in features in modern web browsers that allow develope
 8. Analyzing JavaScript and CSS Usage
 9. Manipulating Elements on a Webpage
 10. Getting Information about Files and Server Configurations
+```
 
-### Tasks
+
+## Tasks 📌
+
 
 #### 0. Responsive Device
 - **Task:** Take a screenshot of a website using the device toolbar. Choose iPhone X and display the size in pixels.
@@ -155,4 +162,10 @@ Developer Tools are built-in features in modern web browsers that allow develope
 
 #### 34. Expiration Date
 - **Task:** Determine when the SSL certificate expires.
-- **File:** 34-ssl_expiration.png
+- **File:** 34-ssl_expiration.png  
+
+
+
+
+### **Author**  :   **Sabrina PAPEAU** - [Github](https://github.com/Holbiwan)
+
