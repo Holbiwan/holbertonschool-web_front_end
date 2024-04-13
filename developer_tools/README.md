@@ -2,18 +2,18 @@
 
 Developer Tools are built-in features in modern web browsers that allow developers to inspect and debug web pages, modify CSS and HTML in real-time, analyze page performance, and much more. This repository contains a comprehensive guide on how to utilize Developer Tools effectively in a browser.
 
-#### Table of Contents
+#### Topics covered in thos repo :
 
-1. [What are Developer Tools in Your Browser?](#what-are-developer-tools)
-2. [Opening Developer Tools](#opening-developer-tools)
-3. [Using the Elements Tab](#using-the-elements-tab)
-4. [Auditing a Page with Lighthouse](#auditing-a-page-with-lighthouse)
-5. [Creating and Running Snippets](#creating-and-running-snippets)
-6. [Getting Information about Files and Server Configurations](#getting-information-about-files-and-server-configurations)
-7. [Blocking Requests](#blocking-requests)
-8. [Analyzing JavaScript and CSS Usage](#analyzing-javascript-and-css-usage)
-9. [Detecting 404 Issues](#detecting-404-issues)
-10. [Manipulating Elements on a Webpage](#manipulating-elements-on-a-webpage)
+1. What are Developer Tools in Your Browser?
+2. Blocking Requests
+3. Detecting 404 Issues
+4. Using the Elements Tab
+5. Opening Developer Tools
+6. Auditing a Page with Lighthouse
+7. Creating and Running Snippets
+8. Analyzing JavaScript and CSS Usage
+9. Manipulating Elements on a Webpage
+10. Getting Information about Files and Server Configurations
 
 ### Tasks
 
