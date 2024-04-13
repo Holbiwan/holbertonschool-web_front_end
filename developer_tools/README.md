@@ -1,6 +1,6 @@
-## Developer Tools Guide 🛠 
+## Developer Tools 🛠 
 
-Developer Tools are built-in features in modern web browsers that allow developers to inspect and debug web pages, modify CSS and HTML in real-time, analyze page performance, and much more. This repository contains a comprehensive guide on how to utilize Developer Tools effectively in a browser.
+Developer Tools are built-in features in modern web browsers that allow developers to inspect and debug web pages, modify CSS and HTML in real-time, analyze page performance, and much more. This repository contains some tasks on how to utilize Developer Tools effectively in a browser.
 
 
 ![Home](https://zupimages.net/up/24/15/w9zd.png)
