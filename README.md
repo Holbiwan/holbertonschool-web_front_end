@@ -5,6 +5,6 @@
 # Projects in this Repository :
 
 ### html_advanced
-### cSS_advanced
+### CSS_advanced
 ### developer_tools
 ### sass_scss
