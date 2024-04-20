@@ -6,8 +6,8 @@
 
 ### Forms
 ### Flexbox
-### sass_scss
+### Sass_scss
 ### CSS_advanced
-### html_advanced
-### developer_tools
+### Html_advanced
+### Developer_tools
 ### Markdown to HTML
