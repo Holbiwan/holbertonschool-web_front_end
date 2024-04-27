@@ -14,3 +14,4 @@
 ### Markdown to HTML
 ### Responsive design
 
+Author  :  **Sabrina PAPEAU** - [Github](https://github.com/Holbiwan)
