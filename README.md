@@ -2,7 +2,7 @@
 
 ![image](https://zupimages.net/up/24/16/mteg.png)
 
-# Projects in this Repository :
+## Projects in this Repository 📌
 
 ### Form
 ### Flexbox
@@ -13,5 +13,6 @@
 ### Developer_tools
 ### Markdown to HTML
 ### Responsive design
+---
 
-Author  :  **Sabrina PAPEAU** - [Github](https://github.com/Holbiwan)
+* **Sabrina PAPEAU** [Github](https://github.com/Holbiwan)
