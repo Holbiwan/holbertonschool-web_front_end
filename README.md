@@ -1,18 +1,19 @@
-# holbertonschool-web_front_end 📌
+# Holberton School Web Front End 📌
 
-![image](https://zupimages.net/up/24/16/mteg.png)
+![Holberton School Web Front End](https://zupimages.net/up/24/16/mteg.png)
 
-## Projects in this Repository 📌
+## Projects in this Repository 🚀
 
-### Form
-### Flexbox
-### Sass_scss
-### CSS_advanced
-### Accessibility
-### Html_advanced
-### Developer_tools
-### Markdown to HTML
-### Responsive design
+- **Form**: Description of the project
+- **Flexbox**: Description of the project
+- **Sass_scss**: Description of the project
+- **CSS_advanced**: Description of the project
+- **Accessibility**: Description of the project
+- **Html_advanced**: Description of the project
+- **Developer_tools**: Description of the project
+- **Markdown to HTML**: Description of the project
+- **Responsive design**: Description of the project
+
 ---
 
-* **Sabrina PAPEAU** [Github](https://github.com/Holbiwan)
+* **Sabrina PAPEAU** - [Github](https://github.com/Holbiwan)
