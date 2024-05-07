@@ -7,6 +7,7 @@
 - **Form**  
 - **Flexbox**
 - **Sass_scss**  
+- **Bootstrap**
 - **CSS_advanced**  
 - **Accessibility**  
 - **Html_advanced**  
