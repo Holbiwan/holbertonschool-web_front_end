@@ -84,6 +84,7 @@ Your final page must look like this:
 -   Directory: `0x0A-Bootstrap`
 -   File: `0-index.html`
 
+-----
 #### 1\. Blocks mandatory
 
 From this HTML:
@@ -214,9 +215,7 @@ For all cells of all rows:
 -   Directory: `0x0A-Bootstrap`
 -   File: `1-index.html`
 
- Done?\
-Help
-
+-----
 #### 2\. Table of chemical elements mandatory
 
 From this HTML:
@@ -403,6 +402,7 @@ Build this responsive web page:
 -   Directory: `0x0A-Bootstrap`
 -   File: `2-index.html`
 
+-----
 #### 3\. Cards mandatory
 
 From this HTML:
@@ -547,7 +547,7 @@ Build this responsive web page:
 -   Directory: `0x0A-Bootstrap`
 -   File: `3-index.html`
 
-
+-----
 #### 4\. Bob Dylan mandatory
 
 From this HTML:
@@ -667,7 +667,7 @@ Build this responsive web page:
 -   Directory: `0x0A-Bootstrap`
 -   File: `4-index.html`
 
-
+-----
 #### 5\. Show/Hide - screen size mandatory
 
 From this HTML:
@@ -739,6 +739,7 @@ Build this responsive web page:
 -   Directory: `0x0A-Bootstrap`
 -   File: `5-index.html`
 
+-----
 #### 6\. Overwrite CSS mandatory
 
 With this HTML: (one Bootstrap template example)
@@ -866,7 +867,6 @@ With this HTML: (one Bootstrap template example)
 ```
 
 Create the custom stylesheet `6-styles.css` to match this layout.
-
 ![](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/3/cfec56b8c859081abbd8.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20200909%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200909T005635Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=00ae68a91cf1f270bdb9373b7e13e8204fd65c112a3a9fc8af89435988aa80c0)
 
 ![](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/3/d902ca67b96983d8792b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20200909%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200909T005635Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=9b7af8f7072df2075ee5b5ae274dd13da041c178352ba8934d7fab01d9a012b5)
