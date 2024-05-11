@@ -5,4 +5,3 @@ function welcome(firstName, lastName){
     }
     return displayFullName();
    }
-   
