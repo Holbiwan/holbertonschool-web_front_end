@@ -31,4 +31,3 @@ function createMode(size, weight, transform, background, color) {
   }
   
   main();
-
