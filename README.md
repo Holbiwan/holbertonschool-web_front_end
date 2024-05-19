@@ -11,7 +11,8 @@
 - **CSS_advanced**  
 - **Accessibility**  
 - **Html_advanced**  
-- **Developer_tools**  
+- **Developer_tools**
+- **jQuery advanced**  
 - **Markdown to HTML**  
 - **Responsive design**  
 
