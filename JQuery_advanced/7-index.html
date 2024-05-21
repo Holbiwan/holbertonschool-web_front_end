@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <title>Task 7</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-8/q/UzA0I5Jo6YclMyF0og/NrsIjVjO8+6y6bUhDRqk=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script type="application/javascript">
+        $(document).ready(function() {
+            function createSearchForm() {
+                $('body').append(
+                    $('<form>').append(
+                        $('<input>').attr('type', 'text').attr('placeholder', 'Search term'),
+                        $('<input>').attr('type', 'submit').val('Search'),
+                        $('<ul>')
+                    ).submit(function(e) {
+                        e.preventDefault();
+                        queryWikipedia($('input[type="text"]').val());
+                    })
+                );
+            }
+
+            function addNewArticle(id, title, snippet) {
+                $('ul').append(
+                    $('<li>').append(
+                        $('<p>').append(
+                            $('<span>').text(id + ' - '),
+                            $('<b>').text(title)
+                        ),
+                        $('<p>').html(snippet)
+                    )
+                );
+            }
+
+            function queryWikipedia(search) {
+                const apiUrl = "https://en.wikipedia.org/w/api.php";
+                $.ajax({
+                    url: apiUrl,
+                    data: {
+                        action: "query",
+                        list: "search",
+                        srsearch: search,
+                        format: "json",
+                        origin: '*'
+                    },
+                    dataType: "json",
+                    success: function(response) {
+                        const results = response.query.search;
+                        results.forEach(result => {
+                            addNewArticle(result.pageid, result.title, result.snippet);
+                        });
+                    }
+                });
+            }
+
+            createSearchForm();
+        });
+    </script>
+</body>
+</html>
