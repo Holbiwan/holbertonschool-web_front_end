@@ -10,43 +10,48 @@
         .remove-button {
             background-color: orange;
             cursor: pointer;
+            padding: 2px 5px;
+            border: none;
+            color: white;
         }
     </style>
 </head>
 
 <body>
     <script type="application/javascript">
-        const createFamilyTree = () => {
-            const table = $("<table>");
-            const thead = $("<thead>");
-            const tbody = $("<tbody>");
-            
-            const headerRow = $("<tr>");
-            headerRow.append($("<th>").text("Firstname"), $("<th>").text("Lastname"));
-            thead.append(headerRow);
-            
-            table.append(thead, tbody);
-            $('body').append(table);
-        };
+        $(document).ready(function() {
+            const createFamilyTree = () => {
+                $('body').append(
+                    $("<table border='1'>").append(
+                        $("<thead>").append(
+                            $("<tr>").append(
+                                $("<th>").text("Firstname"),
+                                $("<th>").text("Lastname"),
+                                $("<th>").text("Action")
+                            )
+                        ),
+                        $("<tbody>")
+                    )
+                );
+            };
 
-        const addNewMember = (firstName, lastName) => {
-            const tbody = $("tbody");
-            const row = $("<tr>");
-            row.append($("<td>").text(firstName), $("<td>").text(lastName));
-            
-            const removeCell = $("<td>")
-                .addClass("remove-button")
-                .text("(x)")
-                .click(function() {
-                    $(this).closest("tr").remove();
-                });
-            
-            row.append(removeCell);
-            
-            tbody.append(row);
-        };
+            const addNewMember = (firstName, lastName) => {
+                $("tbody").append(
+                    $("<tr>").append(
+                        $("<td>").text(firstName),
+                        $("<td>").text(lastName),
+                        $("<td>").append(
+                            $("<span>")
+                                .addClass("remove-button")
+                                .text("(x)")
+                                .click(function() {
+                                    $(this).closest("tr").remove();
+                                })
+                        )
+                    )
+                );
+            };
 
-        $(document).ready(function () {
             createFamilyTree();
             
             addNewMember("Guillaume", "Salva");
