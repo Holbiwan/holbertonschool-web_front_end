@@ -47,42 +47,37 @@
             }
 
             function queryWikipedia(search, offset = 0) {
-                const apiUrl = "https://en.wikipedia.org/w/api.php";
                 $.ajax({
-                    url: apiUrl,
+                    url: 'https://en.wikipedia.org/w/api.php',
                     data: {
-                        action: "query",
-                        list: "search",
+                        action: 'query',
+                        list: 'search',
                         srsearch: search,
                         sroffset: offset,
-                        format: "json",
+                        format: 'json',
                         origin: '*'
                     },
-                    dataType: "json",
+                    dataType: 'json',
                     success: function(data) {
-                        $('ul').first().empty();
                         const results = data.query.search;
-                        results.forEach(function(article) {
-                            addNewArticle(article.pageid, article.title, article.snippet);
-                        });
+                        $('ul').first().empty();
+                        results.forEach(article => addNewArticle(article.pageid, article.title, article.snippet));
                         buildPagination(data.query.searchinfo.totalhits, 10, offset);
                     }
                 });
             }
 
-            function buildPagination(numberOfItems, itemsPerPage, currentOffset) {
+            function buildPagination(totalItems, itemsPerPage, currentOffset) {
                 $('#pagination').empty();
-                const totalPages = Math.ceil(numberOfItems / itemsPerPage);
+                const totalPages = Math.ceil(totalItems / itemsPerPage);
                 for (let i = 0; i < totalPages; i++) {
                     const page = i + 1;
                     const offset = i * itemsPerPage;
-                    const pageItem = $('<li>').text(page).click(function() {
-                        queryWikipedia($('input[type="text"]').val(), offset);
-                    });
-                    if (offset === currentOffset) {
-                        pageItem.addClass('active');
-                    }
-                    $('#pagination').append(pageItem);
+                    $('<li>')
+                        .text(page)
+                        .toggleClass('active', offset === currentOffset)
+                        .click(() => queryWikipedia($('input[type="text"]').val(), offset))
+                        .appendTo('#pagination');
                 }
             }
 
