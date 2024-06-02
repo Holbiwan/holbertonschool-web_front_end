@@ -17,6 +17,7 @@
 - **Responsive design**  
 - **Cookies & local storage**
 
+
 ---
 
 * **Sabrina PAPEAU** - [Github](https://github.com/Holbiwan)
